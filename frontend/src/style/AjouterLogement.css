@@ -1,0 +1,83 @@
+/* PAGE BACKGROUND */
+.logement-page {
+  min-height: 100vh;
+  padding: 30px;
+  background:
+    radial-gradient(circle at top left, rgba(245, 197, 66, 0.12), transparent 35%),
+    radial-gradient(circle at bottom right, rgba(139, 94, 60, 0.18), transparent 40%),
+    linear-gradient(135deg, #0b0b0b, #111, #1a140f);
+  color: white;
+}
+
+/* TITLE */
+.logement-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #f5c542;
+  margin-bottom: 25px;
+}
+
+/* FORM CARD */
+.logement-card {
+  max-width: 700px;
+  margin: auto;
+
+  background: rgba(0, 0, 0, 0.55);
+  border: 1px solid rgba(245, 197, 66, 0.35);
+
+  border-radius: 16px;
+  padding: 30px;
+
+  backdrop-filter: blur(12px);
+
+  box-shadow:
+    0 10px 40px rgba(0,0,0,0.5),
+    0 0 25px rgba(245, 197, 66, 0.08);
+}
+
+/* LABEL */
+.logement-label {
+  color: #ddd;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+/* INPUT */
+.logement-input {
+  background: rgba(255, 255, 255, 0.07) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: white !important;
+
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.logement-input::placeholder {
+  color: #aaa;
+}
+
+.logement-input:focus {
+  border-color: #f5c542 !important;
+  box-shadow: 0 0 12px rgba(245, 197, 66, 0.25) !important;
+}
+
+/* BUTTON */
+.logement-btn {
+  width: 100%;
+  padding: 12px;
+
+  background: linear-gradient(90deg, #f5c542, #8b5e3c);
+  border: none;
+
+  color: black;
+  font-weight: bold;
+
+  border-radius: 12px;
+
+  transition: 0.3s;
+}
+
+.logement-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 18px rgba(245, 197, 66, 0.35);
+}
